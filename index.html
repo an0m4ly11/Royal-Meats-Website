@@ -1,0 +1,964 @@
+<!DOCTYPE html>
+<html lang="en" class="Uq2XjW_variable zgj2ha_variable bg-background">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preload" as="image" href="images/royal-meats-logo.png" />
+    <link rel="preload" as="image" href="images/hero-grill.png" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="color-scheme" content="dark" />
+    <title>Royal Meats | BBQ, Ćevapi, Sausages, Deli &amp; Bakery</title>
+    <meta
+      name="description"
+      content="Royal Meats is your local source for BBQ: hand-formed ćevapi, smokehouse sausages, deli meats, fresh bakery and prepared foods. Catering and wholesale available."
+    />
+    <meta property="og:title" content="Royal Meats Bar-Beque" />
+    <meta
+      property="og:description"
+      content="The place to go when you want BBQ. Ćevapi, sausages, deli, bakery and catering."
+    />
+    <meta property="og:image" content="images/hero-grill.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Royal Meats Bar-Beque" />
+    <meta
+      name="twitter:description"
+      content="The place to go when you want BBQ. Ćevapi, sausages, deli, bakery and catering."
+    />
+    <meta name="twitter:image" content="images/hero-grill.png" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="antialiased">
+    <header class="sticky top-0 z-50 border-b-2 border-primary bg-header">
+      <div class="mx-auto flex h-24 max-w-7xl items-center justify-between gap-6 px-4 md:h-28 md:px-6">
+        <a class="shrink-0" href="index.html"
+          ><img
+            alt="Royal Meats Bar-Beque — home"
+            width="1224"
+            height="627"
+            decoding="async"
+            class="h-20 w-auto md:h-28"
+            src="images/royal-meats-logo.png"
+        /></a>
+        <nav aria-label="Main" class="hidden items-center gap-7 lg:flex">
+          <a
+            aria-current="page"
+            class="font-serif text-sm font-bold tracking-widest uppercase transition-colors hover:text-foreground text-primary"
+            href="index.html"
+            >Home</a
+          ><a
+            class="font-serif text-sm font-bold tracking-widest uppercase transition-colors hover:text-foreground text-silver"
+            href="products.html"
+            >Products</a
+          ><a
+            class="font-serif text-sm font-bold tracking-widest uppercase transition-colors hover:text-foreground text-silver"
+            href="recipes.html"
+            >Recipes</a
+          ><a
+            class="font-serif text-sm font-bold tracking-widest uppercase transition-colors hover:text-foreground text-silver"
+            href="catering.html"
+            >Catering</a
+          ><a
+            class="font-serif text-sm font-bold tracking-widest uppercase transition-colors hover:text-foreground text-silver"
+            href="events.html"
+            >Events</a
+          ><a
+            class="font-serif text-sm font-bold tracking-widest uppercase transition-colors hover:text-foreground text-silver"
+            href="about.html"
+            >About</a
+          >
+        </nav>
+        <div class="hidden items-center gap-5 lg:flex">
+          <a href="tel:+15555550142" class="flex items-center gap-2 text-sm text-silver hover:text-foreground"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-phone size-4"
+              aria-hidden="true"
+            >
+              <path
+                d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"
+              ></path></svg
+            >(555) 555-0142</a
+          ><a
+            class="rounded-sm bg-primary px-4 py-2 font-serif text-xs font-bold tracking-widest text-primary-foreground uppercase transition-opacity hover:opacity-90"
+            href="wholesale.html"
+            >Wholesale</a
+          >
+        </div>
+        <button type="button" class="text-silver lg:hidden" aria-expanded="false" aria-controls="mobile-nav">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-menu size-6"
+            aria-hidden="true"
+            data-icon="open"
+          >
+            <path d="M4 5h16"></path>
+            <path d="M4 12h16"></path>
+            <path d="M4 19h16"></path></svg
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-x size-6"
+            aria-hidden="true"
+            data-icon="close"
+            hidden=""
+          >
+            <path d="M18 6 6 18"></path>
+            <path d="m6 6 12 12"></path></svg
+          ><span class="sr-only">Toggle menu</span>
+        </button>
+      </div>
+      <nav id="mobile-nav" aria-label="Mobile" class="border-t border-border bg-header px-4 pb-6 lg:hidden" hidden="">
+        <ul class="flex flex-col">
+          <li>
+            <a
+              href="index.html"
+              class="block border-b border-border py-4 font-serif text-sm font-bold tracking-widest text-silver uppercase"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a
+              href="products.html"
+              class="block border-b border-border py-4 font-serif text-sm font-bold tracking-widest text-silver uppercase"
+              >Products</a
+            >
+          </li>
+          <li>
+            <a
+              href="recipes.html"
+              class="block border-b border-border py-4 font-serif text-sm font-bold tracking-widest text-silver uppercase"
+              >Recipes</a
+            >
+          </li>
+          <li>
+            <a
+              href="catering.html"
+              class="block border-b border-border py-4 font-serif text-sm font-bold tracking-widest text-silver uppercase"
+              >Catering</a
+            >
+          </li>
+          <li>
+            <a
+              href="events.html"
+              class="block border-b border-border py-4 font-serif text-sm font-bold tracking-widest text-silver uppercase"
+              >Events</a
+            >
+          </li>
+          <li>
+            <a
+              href="about.html"
+              class="block border-b border-border py-4 font-serif text-sm font-bold tracking-widest text-silver uppercase"
+              >About</a
+            >
+          </li>
+          <li>
+            <a
+              href="wholesale.html"
+              class="block border-b border-border py-4 font-serif text-sm font-bold tracking-widest text-silver uppercase"
+              >Wholesale &amp; Partners</a
+            >
+          </li>
+        </ul>
+        <a href="tel:+15555550142" class="mt-4 flex items-center gap-2 text-silver"
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-phone size-4"
+            aria-hidden="true"
+          >
+            <path
+              d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"
+            ></path></svg
+          >(555) 555-0142</a
+        >
+      </nav>
+    </header>
+    <main>
+      <section class="relative isolate overflow-hidden border-b-2 border-primary">
+        <img
+          alt=""
+          decoding="async"
+          class="-z-10 object-cover"
+          style="position: absolute; height: 100%; width: 100%; left: 0; top: 0; right: 0; bottom: 0"
+          src="images/hero-grill.png"
+        />
+        <div aria-hidden="true" class="absolute inset-0 -z-10 bg-background/60"></div>
+        <div
+          class="mx-auto flex min-h-[78vh] max-w-7xl flex-col items-center justify-center gap-6 px-4 py-24 text-center md:px-6"
+        >
+          <p class="text-sm font-semibold tracking-widest text-silver uppercase">Butcher · Smokehouse · Bakery</p>
+          <h1 class="max-w-4xl bg-background/70 px-6 py-4 font-serif text-5xl font-extrabold text-balance md:text-7xl">
+            When it's time to grill, it's Royal.
+          </h1>
+          <p class="max-w-xl text-lg leading-relaxed text-pretty text-foreground">
+            Hand-formed ćevapi, smokehouse sausages, deli, fresh bakery and prepared foods, made by our family for
+            yours.
+          </p>
+          <div class="flex flex-wrap justify-center gap-4">
+            <a
+              class="rounded-sm bg-primary px-6 py-3 font-serif text-sm font-bold tracking-widest text-primary-foreground uppercase hover:opacity-90"
+              href="products.html"
+              >Shop Our Products</a
+            ><a
+              class="rounded-sm border border-silver px-6 py-3 font-serif text-sm font-bold tracking-widest text-foreground uppercase hover:bg-foreground/10"
+              href="catering.html"
+              >Book Catering</a
+            >
+          </div>
+        </div>
+      </section>
+      <section class="slate-texture border-b-2 border-primary">
+        <div class="mx-auto grid max-w-7xl items-center gap-12 px-4 py-20 md:px-6 lg:grid-cols-2">
+          <div class="relative aspect-[4/3] overflow-hidden rounded-sm">
+            <img
+              alt="A Royal Meats butcher holding a tray of fresh ćevapi at the counter"
+              loading="lazy"
+              decoding="async"
+              class="object-cover"
+              style="position: absolute; height: 100%; width: 100%; left: 0; top: 0; right: 0; bottom: 0"
+              src="images/family-store.png"
+            />
+          </div>
+          <div class="flex flex-col gap-6">
+            <div class="flex flex-col gap-4">
+              <p class="text-sm font-semibold tracking-widest text-primary uppercase">Our story</p>
+              <h2 class="font-serif text-3xl font-bold text-balance text-foreground md:text-5xl">
+                Family recipes. Neighborhood counter.
+              </h2>
+              <span aria-hidden="true" class="h-0.5 w-24 bg-primary"></span>
+            </div>
+            <p class="leading-relaxed text-pretty text-muted-foreground">
+              Royal Meats started with one family, one grill and a ćevapi recipe that friends kept asking for. Today we
+              make everything the same way: real cuts, our own spice blends and beechwood smoke. It is the food we grew
+              up on, and the food we want at every table you share.
+            </p>
+            <a
+              class="inline-flex items-center gap-2 self-start font-serif text-sm font-bold tracking-widest text-primary uppercase hover:underline"
+              href="about.html"
+              >Read our story
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-arrow-right size-4"
+                aria-hidden="true"
+              >
+                <path d="M5 12h14"></path>
+                <path d="m12 5 7 7-7 7"></path></svg
+            ></a>
+          </div>
+        </div>
+      </section>
+      <section class="border-b-2 border-primary">
+        <div class="mx-auto flex max-w-7xl flex-col gap-12 px-4 py-20 md:px-6">
+          <div class="flex flex-col justify-between gap-6 md:flex-row md:items-end">
+            <div class="flex flex-col gap-4">
+              <p class="text-sm font-semibold tracking-widest text-primary uppercase">
+                In your freezer, ready for the grill
+              </p>
+              <h2 class="font-serif text-3xl font-bold text-balance text-foreground md:text-5xl">The Royal lineup</h2>
+              <span aria-hidden="true" class="h-0.5 w-24 bg-primary"></span>
+            </div>
+            <a
+              class="inline-flex items-center gap-2 font-serif text-sm font-bold tracking-widest text-primary uppercase hover:underline"
+              href="products.html"
+              >View all products
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-arrow-right size-4"
+                aria-hidden="true"
+              >
+                <path d="M5 12h14"></path>
+                <path d="m12 5 7 7-7 7"></path></svg
+            ></a>
+          </div>
+          <ul class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            <li>
+              <a class="block h-full" href="products.html#chevaps-pork-beef"
+                ><article
+                  class="group flex h-full flex-col overflow-hidden rounded-sm border border-border bg-card transition-colors hover:border-primary"
+                >
+                  <div
+                    class="relative isolate flex items-center justify-center overflow-hidden bg-[radial-gradient(ellipse_at_50%_40%,var(--color-card)_0%,var(--color-background)_75%)] p-8 aspect-[4/3]"
+                  >
+                    <span
+                      aria-hidden="true"
+                      class="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-silver/40 to-transparent"
+                    ></span
+                    ><span
+                      aria-hidden="true"
+                      class="absolute bottom-6 left-1/2 -z-10 h-6 w-3/4 -translate-x-1/2 rounded-[50%] bg-background blur-xl"
+                    ></span
+                    ><img
+                      alt="Royal Chevaps Pork &amp; Beef package"
+                      loading="lazy"
+                      width="751"
+                      height="374"
+                      decoding="async"
+                      class="h-auto max-h-full w-auto max-w-full object-contain drop-shadow-[0_18px_24px_rgba(0,0,0,0.65)] transition-transform duration-500 group-hover:-translate-y-1 group-hover:scale-[1.03]"
+                      src="images/products/chevaps-pork-beef.png"
+                    />
+                  </div>
+                  <div class="flex flex-1 flex-col gap-3 border-t border-border p-6">
+                    <div class="flex items-center justify-between gap-3">
+                      <p class="text-xs font-semibold tracking-widest text-primary uppercase">Pork &amp; Beef</p>
+                    </div>
+                    <h3 class="font-serif text-xl font-bold text-balance">Royal Chevaps</h3>
+                    <dl class="mt-auto grid grid-cols-2 gap-3 border-t border-border pt-4 text-sm">
+                      <div class="flex flex-col gap-0.5">
+                        <dt class="text-xs tracking-widest text-silver uppercase">Size</dt>
+                        <dd>20 × 50 g · 1 kg</dd>
+                      </div>
+                      <div class="flex flex-col gap-0.5">
+                        <dt class="text-xs tracking-widest text-silver uppercase">Storage</dt>
+                        <dd>Keep frozen</dd>
+                      </div>
+                    </dl>
+                    <p class="text-sm text-muted-foreground">
+                      2 vacuum packs of 10 · Gluten free · No added preservatives
+                    </p>
+                  </div>
+                </article></a
+              >
+            </li>
+            <li>
+              <a class="block h-full" href="products.html#chevapi-beef-lamb"
+                ><article
+                  class="group flex h-full flex-col overflow-hidden rounded-sm border border-border bg-card transition-colors hover:border-primary"
+                >
+                  <div
+                    class="relative isolate flex items-center justify-center overflow-hidden bg-[radial-gradient(ellipse_at_50%_40%,var(--color-card)_0%,var(--color-background)_75%)] p-8 aspect-[4/3]"
+                  >
+                    <span
+                      aria-hidden="true"
+                      class="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-silver/40 to-transparent"
+                    ></span
+                    ><span
+                      aria-hidden="true"
+                      class="absolute bottom-6 left-1/2 -z-10 h-6 w-3/4 -translate-x-1/2 rounded-[50%] bg-background blur-xl"
+                    ></span
+                    ><img
+                      alt="Royal Chevapi Beef &amp; Lamb package"
+                      loading="lazy"
+                      width="936"
+                      height="463"
+                      decoding="async"
+                      class="h-auto max-h-full w-auto max-w-full object-contain drop-shadow-[0_18px_24px_rgba(0,0,0,0.65)] transition-transform duration-500 group-hover:-translate-y-1 group-hover:scale-[1.03]"
+                      src="images/products/chevapi-beef-lamb.png"
+                    />
+                  </div>
+                  <div class="flex flex-1 flex-col gap-3 border-t border-border p-6">
+                    <div class="flex items-center justify-between gap-3">
+                      <p class="text-xs font-semibold tracking-widest text-primary uppercase">Beef &amp; Lamb</p>
+                      <span
+                        class="rounded-sm border border-silver/50 px-2 py-0.5 text-xs font-semibold tracking-widest text-silver uppercase"
+                        >Halal</span
+                      >
+                    </div>
+                    <h3 class="font-serif text-xl font-bold text-balance">Royal Chevapi</h3>
+                    <dl class="mt-auto grid grid-cols-2 gap-3 border-t border-border pt-4 text-sm">
+                      <div class="flex flex-col gap-0.5">
+                        <dt class="text-xs tracking-widest text-silver uppercase">Size</dt>
+                        <dd>20 × 40 g · 800 g</dd>
+                      </div>
+                      <div class="flex flex-col gap-0.5">
+                        <dt class="text-xs tracking-widest text-silver uppercase">Storage</dt>
+                        <dd>Keep frozen</dd>
+                      </div>
+                    </dl>
+                    <p class="text-sm text-muted-foreground">
+                      2 vacuum packs of 10 · Gluten free · No added preservatives
+                    </p>
+                  </div>
+                </article></a
+              >
+            </li>
+            <li>
+              <a class="block h-full" href="products.html#chevaps-family-pack"
+                ><article
+                  class="group flex h-full flex-col overflow-hidden rounded-sm border border-border bg-card transition-colors hover:border-primary"
+                >
+                  <div
+                    class="relative isolate flex items-center justify-center overflow-hidden bg-[radial-gradient(ellipse_at_50%_40%,var(--color-card)_0%,var(--color-background)_75%)] p-8 aspect-[4/3]"
+                  >
+                    <span
+                      aria-hidden="true"
+                      class="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-silver/40 to-transparent"
+                    ></span
+                    ><span
+                      aria-hidden="true"
+                      class="absolute bottom-6 left-1/2 -z-10 h-6 w-3/4 -translate-x-1/2 rounded-[50%] bg-background blur-xl"
+                    ></span
+                    ><img
+                      alt="Royal Chevaps Family Pack Pork &amp; Veal package"
+                      loading="lazy"
+                      width="826"
+                      height="661"
+                      decoding="async"
+                      class="h-auto max-h-full w-auto max-w-full object-contain drop-shadow-[0_18px_24px_rgba(0,0,0,0.65)] transition-transform duration-500 group-hover:-translate-y-1 group-hover:scale-[1.03]"
+                      src="images/products/chevaps-family-pack.png"
+                    />
+                  </div>
+                  <div class="flex flex-1 flex-col gap-3 border-t border-border p-6">
+                    <div class="flex items-center justify-between gap-3">
+                      <p class="text-xs font-semibold tracking-widest text-primary uppercase">Pork &amp; Veal</p>
+                    </div>
+                    <h3 class="font-serif text-xl font-bold text-balance">Royal Chevaps Family Pack</h3>
+                    <dl class="mt-auto grid grid-cols-2 gap-3 border-t border-border pt-4 text-sm">
+                      <div class="flex flex-col gap-0.5">
+                        <dt class="text-xs tracking-widest text-silver uppercase">Size</dt>
+                        <dd>60 × 50 g · 3 kg</dd>
+                      </div>
+                      <div class="flex flex-col gap-0.5">
+                        <dt class="text-xs tracking-widest text-silver uppercase">Storage</dt>
+                        <dd>Keep frozen</dd>
+                      </div>
+                    </dl>
+                    <p class="text-sm text-muted-foreground">
+                      6 vacuum packs of 10 · Gluten free · No added preservatives
+                    </p>
+                  </div>
+                </article></a
+              >
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="slate-texture border-b-2 border-primary">
+        <div class="mx-auto grid max-w-7xl gap-10 px-4 py-20 md:px-6 lg:grid-cols-[1fr_2fr] lg:items-center">
+          <div class="flex flex-col gap-6">
+            <div class="flex flex-col gap-4">
+              <p class="text-sm font-semibold tracking-widest text-primary uppercase">Gallery</p>
+              <h2 class="font-serif text-3xl font-bold text-balance text-foreground md:text-5xl">
+                Fire, smoke &amp; ćevapi
+              </h2>
+              <span aria-hidden="true" class="h-0.5 w-24 bg-primary"></span>
+              <p class="max-w-2xl leading-relaxed text-pretty text-muted-foreground">
+                This is what weekends look like with Royal on the grill. Tag us to be featured.
+              </p>
+            </div>
+            <a
+              class="self-start rounded-sm bg-primary px-6 py-3 font-serif text-sm font-bold tracking-widest text-primary-foreground uppercase hover:opacity-90"
+              href="recipes.html"
+              >Get the recipes</a
+            >
+          </div>
+          <ul class="grid grid-cols-2 gap-3 md:grid-cols-3 md:grid-rows-2">
+            <li class="relative overflow-hidden rounded-sm row-span-2 aspect-[3/4] md:aspect-auto">
+              <img
+                alt="Royal ćevapi sizzling over a charcoal grill"
+                loading="lazy"
+                decoding="async"
+                class="object-cover transition-transform duration-500 hover:scale-105"
+                style="position: absolute; height: 100%; width: 100%; left: 0; top: 0; right: 0; bottom: 0"
+                src="images/photos/cevapi-grill.jpg"
+              />
+            </li>
+            <li class="relative overflow-hidden rounded-sm aspect-square">
+              <img
+                alt="A platter of grilled ćevapi with kajmak and ajvar"
+                loading="lazy"
+                decoding="async"
+                class="object-cover transition-transform duration-500 hover:scale-105"
+                style="position: absolute; height: 100%; width: 100%; left: 0; top: 0; right: 0; bottom: 0"
+                src="images/photos/cevapi-platter.jpg"
+              />
+            </li>
+            <li class="relative overflow-hidden rounded-sm aspect-square">
+              <img
+                alt="Burger patties over open flames"
+                loading="lazy"
+                decoding="async"
+                class="object-cover transition-transform duration-500 hover:scale-105"
+                style="position: absolute; height: 100%; width: 100%; left: 0; top: 0; right: 0; bottom: 0"
+                src="images/photos/flying-burgers.jpg"
+              />
+            </li>
+            <li class="relative overflow-hidden rounded-sm aspect-square">
+              <img
+                alt="Glazed pork skewers on a wooden board"
+                loading="lazy"
+                decoding="async"
+                class="object-cover transition-transform duration-500 hover:scale-105"
+                style="position: absolute; height: 100%; width: 100%; left: 0; top: 0; right: 0; bottom: 0"
+                src="images/photos/pork-skewers.jpg"
+              />
+            </li>
+            <li class="relative overflow-hidden rounded-sm aspect-square">
+              <img
+                alt="Ćevapi on a hammered tray with bread and ajvar"
+                loading="lazy"
+                decoding="async"
+                class="object-cover transition-transform duration-500 hover:scale-105"
+                style="position: absolute; height: 100%; width: 100%; left: 0; top: 0; right: 0; bottom: 0"
+                src="images/photos/cevapi-tray.jpg"
+              />
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="border-b-2 border-primary">
+        <div class="mx-auto flex max-w-7xl flex-col gap-12 px-4 py-20 md:px-6">
+          <div class="flex flex-col gap-4 items-center text-center">
+            <p class="text-sm font-semibold tracking-widest text-primary uppercase">What we make</p>
+            <h2 class="font-serif text-3xl font-bold text-balance text-foreground md:text-5xl">Products</h2>
+            <span aria-hidden="true" class="h-0.5 w-24 bg-primary"></span>
+            <p class="max-w-2xl leading-relaxed text-pretty text-muted-foreground">
+              Everything you need for the grill, the table and the deli drawer.
+            </p>
+          </div>
+          <ul class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            <li>
+              <a
+                class="group flex h-full flex-col overflow-hidden rounded-sm border border-border bg-card transition-colors hover:border-primary"
+                href="products.html#cevapi"
+                ><div class="relative aspect-[4/3] overflow-hidden">
+                  <img
+                    alt="Ćevapi &amp; Burgers"
+                    loading="lazy"
+                    decoding="async"
+                    class="object-cover transition-transform duration-500 group-hover:scale-105"
+                    style="position: absolute; height: 100%; width: 100%; left: 0; top: 0; right: 0; bottom: 0"
+                    src="images/photos/cevapi-platter.jpg"
+                  />
+                </div>
+                <div class="flex flex-1 flex-col gap-2 p-6">
+                  <h3 class="font-serif text-xl font-bold">Ćevapi &amp; Burgers</h3>
+                  <p class="text-sm leading-relaxed text-muted-foreground">The reason the grill gets lit</p>
+                </div></a
+              >
+            </li>
+            <li>
+              <a
+                class="group flex h-full flex-col overflow-hidden rounded-sm border border-border bg-card transition-colors hover:border-primary"
+                href="products.html#sausages"
+                ><div class="relative aspect-[4/3] overflow-hidden">
+                  <img
+                    alt="Sausages"
+                    loading="lazy"
+                    decoding="async"
+                    class="object-cover transition-transform duration-500 group-hover:scale-105"
+                    style="position: absolute; height: 100%; width: 100%; left: 0; top: 0; right: 0; bottom: 0"
+                    src="images/photos/grill-basting.jpg"
+                  />
+                </div>
+                <div class="flex flex-1 flex-col gap-2 p-6">
+                  <h3 class="font-serif text-xl font-bold">Sausages</h3>
+                  <p class="text-sm leading-relaxed text-muted-foreground">Smoked low, snapped on the grill</p>
+                </div></a
+              >
+            </li>
+            <li>
+              <a
+                class="group flex h-full flex-col overflow-hidden rounded-sm border border-border bg-card transition-colors hover:border-primary"
+                href="products.html#deli"
+                ><div class="relative aspect-[4/3] overflow-hidden">
+                  <img
+                    alt="Deli &amp; Smoked Meats"
+                    loading="lazy"
+                    decoding="async"
+                    class="object-cover transition-transform duration-500 group-hover:scale-105"
+                    style="position: absolute; height: 100%; width: 100%; left: 0; top: 0; right: 0; bottom: 0"
+                    src="images/deli.png"
+                  />
+                </div>
+                <div class="flex flex-1 flex-col gap-2 p-6">
+                  <h3 class="font-serif text-xl font-bold">Deli &amp; Smoked Meats</h3>
+                  <p class="text-sm leading-relaxed text-muted-foreground">Sliced thin, piled high</p>
+                </div></a
+              >
+            </li>
+            <li>
+              <a
+                class="group flex h-full flex-col overflow-hidden rounded-sm border border-border bg-card transition-colors hover:border-primary"
+                href="products.html#fresh-cuts"
+                ><div class="relative aspect-[4/3] overflow-hidden">
+                  <img
+                    alt="Fresh Butcher Cuts"
+                    loading="lazy"
+                    decoding="async"
+                    class="object-cover transition-transform duration-500 group-hover:scale-105"
+                    style="position: absolute; height: 100%; width: 100%; left: 0; top: 0; right: 0; bottom: 0"
+                    src="images/photos/flying-meat.jpg"
+                  />
+                </div>
+                <div class="flex flex-1 flex-col gap-2 p-6">
+                  <h3 class="font-serif text-xl font-bold">Fresh Butcher Cuts</h3>
+                  <p class="text-sm leading-relaxed text-muted-foreground">Cut daily at the counter</p>
+                </div></a
+              >
+            </li>
+            <li>
+              <a
+                class="group flex h-full flex-col overflow-hidden rounded-sm border border-border bg-card transition-colors hover:border-primary"
+                href="products.html#bakery"
+                ><div class="relative aspect-[4/3] overflow-hidden">
+                  <img
+                    alt="Bakery"
+                    loading="lazy"
+                    decoding="async"
+                    class="object-cover transition-transform duration-500 group-hover:scale-105"
+                    style="position: absolute; height: 100%; width: 100%; left: 0; top: 0; right: 0; bottom: 0"
+                    src="images/bakery.png"
+                  />
+                </div>
+                <div class="flex flex-1 flex-col gap-2 p-6">
+                  <h3 class="font-serif text-xl font-bold">Bakery</h3>
+                  <p class="text-sm leading-relaxed text-muted-foreground">Out of the oven every morning</p>
+                </div></a
+              >
+            </li>
+            <li>
+              <a
+                class="group flex h-full flex-col overflow-hidden rounded-sm border border-border bg-card transition-colors hover:border-primary"
+                href="products.html#prepared"
+                ><div class="relative aspect-[4/3] overflow-hidden">
+                  <img
+                    alt="Prepared Foods"
+                    loading="lazy"
+                    decoding="async"
+                    class="object-cover transition-transform duration-500 group-hover:scale-105"
+                    style="position: absolute; height: 100%; width: 100%; left: 0; top: 0; right: 0; bottom: 0"
+                    src="images/prepared.png"
+                  />
+                </div>
+                <div class="flex flex-1 flex-col gap-2 p-6">
+                  <h3 class="font-serif text-xl font-bold">Prepared Foods</h3>
+                  <p class="text-sm leading-relaxed text-muted-foreground">Sunday dinner, any day</p>
+                </div></a
+              >
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="slate-texture border-b-2 border-primary">
+        <div class="mx-auto flex max-w-7xl flex-col gap-12 px-4 py-20 md:px-6">
+          <div class="flex flex-col justify-between gap-6 md:flex-row md:items-end">
+            <div class="flex flex-col gap-4">
+              <p class="text-sm font-semibold tracking-widest text-primary uppercase">From our kitchen</p>
+              <h2 class="font-serif text-3xl font-bold text-balance text-foreground md:text-5xl">
+                Recipes worth sharing
+              </h2>
+              <span aria-hidden="true" class="h-0.5 w-24 bg-primary"></span>
+            </div>
+            <a
+              class="inline-flex items-center gap-2 font-serif text-sm font-bold tracking-widest text-primary uppercase hover:underline"
+              href="recipes.html"
+              >All recipes
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-arrow-right size-4"
+                aria-hidden="true"
+              >
+                <path d="M5 12h14"></path>
+                <path d="m12 5 7 7-7 7"></path></svg
+            ></a>
+          </div>
+          <ul class="grid gap-6 md:grid-cols-3">
+            <li>
+              <a class="group flex flex-col gap-4" href="recipe-classic-cevapi-in-somun.html"
+                ><div class="relative aspect-[4/5] overflow-hidden rounded-sm">
+                  <img
+                    alt="Classic Ćevapi in Somun"
+                    loading="lazy"
+                    decoding="async"
+                    class="object-cover transition-transform duration-500 group-hover:scale-105"
+                    style="position: absolute; height: 100%; width: 100%; left: 0; top: 0; right: 0; bottom: 0"
+                    src="images/photos/cevapi-ajvar.jpg"
+                  />
+                </div>
+                <div class="flex flex-col gap-1">
+                  <p class="text-xs font-semibold tracking-widest text-primary uppercase">25 min · Serves 4</p>
+                  <h3 class="font-serif text-xl font-bold group-hover:text-primary">Classic Ćevapi in Somun</h3>
+                </div></a
+              >
+            </li>
+            <li>
+              <a class="group flex flex-col gap-4" href="recipe-stuffed-burger.html"
+                ><div class="relative aspect-[4/5] overflow-hidden rounded-sm">
+                  <img
+                    alt="Stuffed Burger"
+                    loading="lazy"
+                    decoding="async"
+                    class="object-cover transition-transform duration-500 group-hover:scale-105"
+                    style="position: absolute; height: 100%; width: 100%; left: 0; top: 0; right: 0; bottom: 0"
+                    src="images/recipe-pljeskavica.png"
+                  />
+                </div>
+                <div class="flex flex-col gap-1">
+                  <p class="text-xs font-semibold tracking-widest text-primary uppercase">30 min · Serves 4</p>
+                  <h3 class="font-serif text-xl font-bold group-hover:text-primary">Stuffed Burger</h3>
+                </div></a
+              >
+            </li>
+            <li>
+              <a class="group flex flex-col gap-4" href="recipe-smoked-sausage-pepper-skewers.html"
+                ><div class="relative aspect-[4/5] overflow-hidden rounded-sm">
+                  <img
+                    alt="Smoked Sausage &amp; Pepper Skewers"
+                    loading="lazy"
+                    decoding="async"
+                    class="object-cover transition-transform duration-500 group-hover:scale-105"
+                    style="position: absolute; height: 100%; width: 100%; left: 0; top: 0; right: 0; bottom: 0"
+                    src="images/recipe-skewers.png"
+                  />
+                </div>
+                <div class="flex flex-col gap-1">
+                  <p class="text-xs font-semibold tracking-widest text-primary uppercase">20 min · Serves 6</p>
+                  <h3 class="font-serif text-xl font-bold group-hover:text-primary">
+                    Smoked Sausage &amp; Pepper Skewers
+                  </h3>
+                </div></a
+              >
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="relative isolate overflow-hidden border-b-2 border-primary">
+        <img
+          alt=""
+          loading="lazy"
+          decoding="async"
+          class="-z-10 object-cover"
+          style="position: absolute; height: 100%; width: 100%; left: 0; top: 0; right: 0; bottom: 0"
+          src="images/catering.png"
+        />
+        <div aria-hidden="true" class="absolute inset-0 -z-10 bg-background/80"></div>
+        <div class="mx-auto grid max-w-7xl gap-12 px-4 py-20 md:px-6 lg:grid-cols-2">
+          <div class="flex flex-col gap-6">
+            <div class="flex flex-col gap-4">
+              <p class="text-sm font-semibold tracking-widest text-primary uppercase">Feeding a crowd?</p>
+              <h2 class="font-serif text-3xl font-bold text-balance text-foreground md:text-5xl">Royal Catering</h2>
+              <span aria-hidden="true" class="h-0.5 w-24 bg-primary"></span>
+              <p class="max-w-2xl leading-relaxed text-pretty text-muted-foreground">
+                From backyard birthdays to 500-guest weddings, we bring the grill, the platters and the bread.
+              </p>
+            </div>
+            <a
+              class="self-start rounded-sm bg-primary px-6 py-3 font-serif text-sm font-bold tracking-widest text-primary-foreground uppercase hover:opacity-90"
+              href="catering.html"
+              >Start an Inquiry</a
+            >
+          </div>
+          <div class="flex flex-col gap-4">
+            <h3 class="font-serif text-2xl font-bold">Upcoming events</h3>
+            <ul class="flex flex-col divide-y divide-border border-y border-border">
+              <li class="flex items-center gap-5 py-4">
+                <time
+                  datetime="2026-11-07"
+                  class="flex w-14 flex-col items-center bg-primary py-2 text-primary-foreground"
+                  ><span class="text-xs uppercase">Nov</span><span class="font-serif text-xl font-bold">07</span></time
+                >
+                <div>
+                  <p class="font-semibold">Saturday Grill Out</p>
+                  <p class="text-sm text-muted-foreground">Royal Meats Storefront</p>
+                </div>
+              </li>
+              <li class="flex items-center gap-5 py-4">
+                <time
+                  datetime="2026-11-21"
+                  class="flex w-14 flex-col items-center bg-primary py-2 text-primary-foreground"
+                  ><span class="text-xs uppercase">Nov</span><span class="font-serif text-xl font-bold">21</span></time
+                >
+                <div>
+                  <p class="font-semibold">Holiday Pre-Order Day</p>
+                  <p class="text-sm text-muted-foreground">In store &amp; online</p>
+                </div>
+              </li>
+              <li class="flex items-center gap-5 py-4">
+                <time
+                  datetime="2026-12-12"
+                  class="flex w-14 flex-col items-center bg-primary py-2 text-primary-foreground"
+                  ><span class="text-xs uppercase">Dec</span><span class="font-serif text-xl font-bold">12</span></time
+                >
+                <div>
+                  <p class="font-semibold">Winter Smokehouse Open House</p>
+                  <p class="text-sm text-muted-foreground">Royal Meats Kitchen</p>
+                </div>
+              </li>
+            </ul>
+            <a
+              class="inline-flex items-center gap-2 self-start font-serif text-sm font-bold tracking-widest text-primary uppercase hover:underline"
+              href="events.html"
+              >Events &amp; social
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-arrow-right size-4"
+                aria-hidden="true"
+              >
+                <path d="M5 12h14"></path>
+                <path d="m12 5 7 7-7 7"></path></svg
+            ></a>
+          </div>
+        </div>
+      </section>
+      <section class="bg-header">
+        <div
+          class="mx-auto flex max-w-7xl flex-col items-start justify-between gap-6 px-4 py-14 md:flex-row md:items-center md:px-6"
+        >
+          <div class="flex flex-col gap-2">
+            <h2 class="font-serif text-2xl font-bold md:text-3xl">Want Royal Meats on your shelves?</h2>
+            <p class="text-silver">
+              Retailers, restaurants and distributors: get wholesale pricing and our sell sheet.
+            </p>
+          </div>
+          <a
+            class="shrink-0 rounded-sm bg-primary px-6 py-3 font-serif text-sm font-bold tracking-widest text-primary-foreground uppercase hover:opacity-90"
+            href="wholesale.html"
+            >Request Wholesale Info</a
+          >
+        </div>
+      </section>
+    </main>
+    <footer class="border-t-2 border-primary bg-header text-silver">
+      <div class="mx-auto grid max-w-7xl gap-12 px-4 py-14 md:grid-cols-2 md:px-6 lg:grid-cols-4">
+        <div class="flex flex-col gap-4">
+          <img
+            alt="Royal Meats Bar-Beque"
+            loading="lazy"
+            width="1224"
+            height="627"
+            decoding="async"
+            class="h-20 w-auto self-start"
+            src="images/royal-meats-logo.png"
+          />
+          <p class="text-sm leading-relaxed">
+            Hand-formed ćevapi, smokehouse sausages, deli, bakery and prepared foods. Family made, grill approved.
+          </p>
+        </div>
+        <div class="flex flex-col gap-3">
+          <h2 class="font-serif text-sm font-bold tracking-widest text-foreground uppercase">Explore</h2>
+          <ul class="flex flex-col gap-2 text-sm">
+            <li><a class="hover:text-foreground" href="index.html">Home</a></li>
+            <li><a class="hover:text-foreground" href="products.html">Products</a></li>
+            <li><a class="hover:text-foreground" href="recipes.html">Recipes</a></li>
+            <li><a class="hover:text-foreground" href="catering.html">Catering</a></li>
+            <li><a class="hover:text-foreground" href="events.html">Events</a></li>
+            <li><a class="hover:text-foreground" href="about.html">About</a></li>
+            <li><a class="hover:text-foreground" href="wholesale.html">Wholesale &amp; Partners</a></li>
+          </ul>
+        </div>
+        <div class="flex flex-col gap-3">
+          <h2 class="font-serif text-sm font-bold tracking-widest text-foreground uppercase">Visit</h2>
+          <address class="text-sm leading-relaxed not-italic">1200 Market Street, Your City, ST 00000</address>
+          <ul class="flex flex-col gap-1 text-sm">
+            <li class="flex justify-between gap-4"><span>Mon – Fri</span><span>8am – 7pm</span></li>
+            <li class="flex justify-between gap-4"><span>Saturday</span><span>8am – 6pm</span></li>
+            <li class="flex justify-between gap-4"><span>Sunday</span><span>9am – 3pm</span></li>
+          </ul>
+          <a href="tel:+15555550142" class="text-sm hover:text-foreground">(555) 555-0142</a
+          ><a href="mailto:hello@royalmeats.com" class="text-sm hover:text-foreground">hello@royalmeats.com</a>
+        </div>
+        <div class="flex flex-col gap-3">
+          <h2 class="font-serif text-sm font-bold tracking-widest text-foreground uppercase">Royal Offers</h2>
+          <p class="text-sm leading-relaxed">Weekly specials, new recipes and event invites. No spam, just meat.</p>
+          <form class="flex flex-col gap-2" data-form="newsletter">
+            <div class="flex">
+              <label for="newsletter-email" class="sr-only">Email address</label
+              ><input
+                id="newsletter-email"
+                type="email"
+                required=""
+                autocomplete="email"
+                placeholder="you@email.com"
+                class="min-w-0 flex-1 rounded-l-sm border border-input bg-background px-3 py-2 text-sm text-foreground placeholder:text-muted-foreground focus:border-primary focus:outline-none"
+                name="email"
+              /><button
+                type="submit"
+                class="rounded-r-sm bg-primary px-4 font-serif text-xs font-bold tracking-widest text-primary-foreground uppercase disabled:opacity-60"
+              >
+                Join
+              </button>
+            </div>
+          </form>
+          <ul class="mt-2 flex flex-wrap gap-x-4 gap-y-2 text-sm">
+            <li>
+              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="hover:text-foreground"
+                >Instagram</a
+              >
+            </li>
+            <li>
+              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="hover:text-foreground"
+                >Facebook</a
+              >
+            </li>
+            <li>
+              <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer" class="hover:text-foreground"
+                >TikTok</a
+              >
+            </li>
+            <li>
+              <a href="https://pinterest.com" target="_blank" rel="noopener noreferrer" class="hover:text-foreground"
+                >Pinterest</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="border-t border-border">
+        <p class="mx-auto max-w-7xl px-4 py-5 text-xs md:px-6">© 2026 Royal Meats Bar-Beque. All rights reserved.</p>
+      </div>
+    </footer>
+    <script src="script.js" defer=""></script>
+  </body>
+</html>
